@@ -1,0 +1,50 @@
+.body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background{
+    background:url("https://images-ext-1.discordapp.net/external/zPZgB15hQ-1mkaOqgbie3DCmKS4Infnc9VtBgA_oFZM/%3Fixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26ixlib%3Drb-1.2.1%26auto%3Dformat%26fit%3Dcrop%26w%3D1073%26q%3D80/https/images.unsplash.com/photo-1525015471056-0f7e78652361?width=808&height=607");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+ 
+
+.text2{    
+    color: rgba(255, 255, 255, 0.9);
+    /* opacity: 0.4; */
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font-family: 'Are You Serious', cursive; 
+    font-size: 45px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fade 13s;
+}
+.choice{
+    display: flex;
+}
+.door{
+    padding: 2%;
+    width:25%;
+    text-align: center;
+}
+.door:hover{
+    color:red
+}

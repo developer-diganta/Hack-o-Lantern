@@ -1,0 +1,188 @@
+#body{
+    background:  rgba(63, 5, 2, 0.6)  url("./house.jpg") no-repeat ;
+    background-size: cover;
+    background-blend-mode: multiply;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+
+.btn{
+    /* display: flex; */
+    /* translate: 50%; */
+    position: relative;
+    z-index: 999;
+    margin-top: 10%;
+    margin-left: 48.4%;
+    text-align: center;
+    justify-content: center;
+    /* top: 50%; */
+    background: none;
+    border: none;
+    cursor: url("http://www.rw-designer.com/cursor-view/62073.png"), default;
+}
+
+.btn img{
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 4px 6px 1px rgba(255, 54, 0, 0.9);
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.9);
+    /* opacity: 0.4; */
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
+    animation: lightGlow 8s linear  reverse infinite;
+}
+
+.glow2{
+    
+    opacity: 1;
+    animation: light 1.7s linear  reverse infinite;
+}
+
+.glow{
+    opacity: 1;
+    animation: light 2.4s linear  reverse infinite;
+    /* box-shadow: -35px 0px 60px 8px rgba(255,255,255,1); */
+}
+
+/* .glow::after {
+	content: '';
+	width: 150%;
+	-webkit-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+	-moz-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+	
+} */
+
+
+
+@keyframes light{
+    0% {
+		opacity: 0.4;
+	}
+	5% {
+		opacity: 0.5;
+	}
+	10% {
+		opacity: 0.6;
+	}
+	15% {
+		opacity: 0.85;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	30% {
+		opacity: 1;
+	}
+	35% {
+		opacity: 0.1;
+	}
+	40% {
+		opacity: 0.25;
+	}
+	45% {
+		opacity: 0.5;
+	}
+	60% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 0.85;
+	}
+	80% {
+		opacity: 0.4;
+	}
+	90% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+    from {
+        text-shadow: 0 0 10px #FDF8F6, 0 0 14px #FDF8F6, 0 0 20px #FDF8F6, 0 0 30px #FDF8F6;
+      }
+      
+      to {
+        text-shadow: 0 0 10px #7E7A79, 0 0 14px #7E7A79, 0 0 20px #7E7A79, 0 0 30px #7E7A79;
+      }
+}
+
+@keyframes lightGlow{
+    0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0.5;
+	}
+	45% {
+		opacity: 0.2;
+	}
+	70% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.ghost{
+	/* left: 2%; */
+	animation: shake 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake{
+    0% {
+		opacity: 0.4;
+		left: 0%;
+		top: 4%;
+	}
+	25%{
+		top: 18%;
+		opacity: 0.2;
+	}
+	50% {
+		opacity: 0.6;
+		left: 60%;
+		top: 4%;
+	}
+	75%{
+		top: 2%;
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 0.1;
+		left: 0%;
+		top: 4%;
+	}
+	/* from{
+		left: 0%;
+		opacity: 0.2;
+	}
+
+	to{
+		left: 58%;
+		opacity: 0.;
+	} */
+}
+
+/* .a{
+
+    cursor:url("11-2-halloween-png-file.png"), default;
+} */
+
+/* .a{
+    top: 0;
+    background:  rgba(39, 3, 1, 0.5)  url(gate-removebg-preview.png); */
+    /* background-color: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3));  */
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    /* background-size: cover;
+    background-blend-mode: multiply;
+    min-height: 100vh;
+} */
