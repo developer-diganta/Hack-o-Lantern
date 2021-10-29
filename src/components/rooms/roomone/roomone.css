@@ -1,0 +1,48 @@
+.roomOneBody{
+    background: url("https://images.unsplash.com/photo-1572297905000-240a65cf5b03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    animation: fade 7s;
+}
+
+.disp1{
+    animation: fadein 16s forwards;
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.dis{
+    display: block;
+    opacity: 0;
+    animation: fadeout 2s forwards;
+}
+.none{
+    display: none;
+}
+.dis2{
+    display: block;
+    opacity: 0;
+    animation: fadeout 4s forwards;
+}
+@keyframes fadeout {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
