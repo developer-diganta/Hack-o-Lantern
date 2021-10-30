@@ -16,7 +16,7 @@ export default function Inside() {
                             Door 1
                         </div>
                         <div className="door" onClick={()=>{
-                            history.push("/")
+                            history.push("/movie")
 
                         }}>
                             Door 2
