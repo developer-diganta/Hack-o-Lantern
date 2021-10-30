@@ -10,7 +10,7 @@ export default function Inside() {
                     You See 4 Doors..... Enter into one....A choice you must make...
                     <div className="choice">
                         <div className="door" onClick={()=>{
-                            history.push("/")
+                            history.push("/roomone")
 
                         }}>
                             Door 1
