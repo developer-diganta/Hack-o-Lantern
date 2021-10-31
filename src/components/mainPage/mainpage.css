@@ -1,3 +1,9 @@
+.outerdiv{
+	background-color: black;
+	height: 100vh;
+	/* width: 100vh; */
+}
+
 #body{
     background:  rgba(63, 5, 2, 0.6)  url("./house.jpg") no-repeat ;
     background-size: cover;
@@ -5,9 +11,17 @@
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
+	animation: main 16s;
 }
 
-
+@keyframes main{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
 
 .btn{
     /* display: flex; */
@@ -129,60 +143,3 @@
 	}
 }
 
-.ghost{
-	/* left: 2%; */
-	animation: shake 8s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake{
-    0% {
-		opacity: 0.4;
-		left: 0%;
-		top: 4%;
-	}
-	25%{
-		top: 18%;
-		opacity: 0.2;
-	}
-	50% {
-		opacity: 0.6;
-		left: 60%;
-		top: 4%;
-	}
-	75%{
-		top: 2%;
-		opacity: 0.3;
-	}
-	100% {
-		opacity: 0.1;
-		left: 0%;
-		top: 4%;
-	}
-	/* from{
-		left: 0%;
-		opacity: 0.2;
-	}
-
-	to{
-		left: 58%;
-		opacity: 0.;
-	} */
-}
-
-/* .a{
-
-    cursor:url("11-2-halloween-png-file.png"), default;
-} */
-
-/* .a{
-    top: 0;
-    background:  rgba(39, 3, 1, 0.5)  url(gate-removebg-preview.png); */
-    /* background-color: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3));  */
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover; */
-    /* background-size: cover;
-    background-blend-mode: multiply;
-    min-height: 100vh;
-} */
